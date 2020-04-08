@@ -1,0 +1,34 @@
+.container-left{
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+   
+}
+img{
+height: auto;
+width: 250px
+}
+.addwrapper{
+padding: 30px;
+}
+input{
+    padding: 8px;
+    width: 275px;
+    border-color: #1089ff;
+    border-radius: 15px;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+}
+.wrapperinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+i{
+    margin-left: 20px;
+}
+/* .fa-plus-circle:hover {
+    color: #1089ff;
+    cursor: pointer;
+} */

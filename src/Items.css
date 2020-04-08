@@ -1,0 +1,24 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.itemsContainer{
+    display: flex;
+    padding: 5px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   /* box-shadow: 0 7px 30px -10px rgba(161, 161, 165, 0.5);*/
+    padding: 3px 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    justify-content: space-around;
+    align-self: flex-end;
+    background-color: aqua;
+}
+.fa-trash-alt:hover{
+    color: #f75f00;
+    cursor: pointer;
+}
